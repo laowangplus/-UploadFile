@@ -1,0 +1,22 @@
+{
+    "name": "laowang/uploadfile",
+    "description": "file upload",
+    "type": "project",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "laowang",
+            "email": "415813765@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "laowang\\": "src/"
+        }
+    }
+}
