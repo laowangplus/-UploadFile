@@ -10,4 +10,8 @@ require "../vendor/autoload.php";
 
 use laowang\UploadFile;
 
-$upload = new UploadFile();
+print_r(is_dir('./lolo/'));
+
+rmdir('./lolo/');
+
+print_r(is_dir('./lolo/'));
